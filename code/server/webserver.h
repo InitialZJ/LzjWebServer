@@ -11,6 +11,6 @@
 #include <arpa/inet.h>
 
 #include "epoll.h"
-
+#include "../log/log.h"
 
 #endif  // !WEBSERVER_H

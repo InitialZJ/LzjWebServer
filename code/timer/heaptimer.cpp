@@ -97,13 +97,40 @@ void HeapTimer::adjust(int id, int timeout) {
 }
 
 void HeapTimer::tick() {
-	// 清除超时结点
-	if (heap_.empty()) {
-		return;
-	}
-	while (!heap_.empty())
-	{
-		/* code */
-	}
-	
+  // 清除超时结点
+  if (heap_.empty()) {
+    return;
+  }
+  while (!heap_.empty()) {
+    TimerNode node = heap_.front();
+    if (std::chrono::duration_cast<MS>(node.expires - Clock::now()).count() >
+        0) {
+      break;
+    }
+    node.cb();
+    pop();
+  }
+}
+
+void HeapTimer::pop() {
+  assert(!heap_.empty());
+  del_(0);
+}
+
+void HeapTimer::clear() {
+  ref_.clear();
+  heap_.clear();
+}
+
+int HeapTimer::GetNextTick() {
+  tick();
+  size_t res = -1;
+  if (!heap_.empty()) {
+    res = std::chrono::duration_cast<MS>(heap_.front().expires - Clock::now())
+              .count();
+    if (res < 0) {
+      res = 0;
+    }
+  }
+  return res;
 }

@@ -12,5 +12,10 @@
 
 #include "epoll.h"
 #include "../log/log.h"
+#include "../timer/heaptimer.h"
+#include "../pool/sqlconnpool.h"
+#include "../pool/sqlconnRAII.h"
+#include "../pool/threadpool.h"
+
 
 #endif  // !WEBSERVER_H

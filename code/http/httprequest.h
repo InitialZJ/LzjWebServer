@@ -21,17 +21,6 @@ class HttpRequest {
     FINISH,
   };
 
-  enum HTTP_CODE {
-    NO_REQUEST,
-    GET_REQUEST,
-    BAD_REQUEST,
-    NO_RESOURCE,
-    FORBIDDENT_REQUEST,
-    FILE_REQUEST,
-    INTERNAL_ERROR,
-    CLOSED_CONNECTION,
-  };
-
   HttpRequest() { Init(); }
   ~HttpRequest() = default;
 

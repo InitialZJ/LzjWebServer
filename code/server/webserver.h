@@ -16,6 +16,7 @@
 #include "../pool/sqlconnpool.h"
 #include "../pool/sqlconnRAII.h"
 #include "../pool/threadpool.h"
+#include "../http/httpconn.h"
 
 
 #endif  // !WEBSERVER_H

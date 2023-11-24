@@ -52,7 +52,7 @@ class ThreadPool {
   void AddTask(F&& task) {
     {
       std::lock_guard<std::mutex> locker(pool_->mtx);
-      pool_->tasks.emplace(std::forward<T>(task));
+      pool_->tasks.emplace(std::forward<F>(task));
     }
     pool_->cond.notify_one();
   }

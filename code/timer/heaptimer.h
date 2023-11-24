@@ -22,6 +22,8 @@ struct TimerNode {
   int id;
   TimeStamp expires;
   TimeoutCallBack cb;
+  TimerNode(int id_, TimeStamp expires_, TimeoutCallBack cb_)
+      : id(id_), expires(expires_), cb(cb_) {}
   bool operator<(const TimerNode& t) const { return expires < t.expires; }
 };
 

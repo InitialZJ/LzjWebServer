@@ -1,0 +1,724 @@
+2023-11-24 23:00:48.551756 [info] : ========== Server init ==========
+2023-11-24 23:00:48.551769 [info] : Port:1319, OpenLinger: false
+2023-11-24 23:00:48.551774 [info] : Listen Mode: ET, OpenConn Mode: ET
+2023-11-24 23:00:48.551776 [info] : LogSys Level: 0
+2023-11-24 23:00:48.551779 [info] : srcDir: /home/lzj/Desktop/LzjWebServer/resources/
+2023-11-24 23:00:48.551782 [info] : SqlConnPool num: 8, ThreadPool num: 10
+2023-11-24 23:00:48.551785 [info] : ========== Server start ==========
+2023-11-24 23:00:55.951971 [info] : 1
+2023-11-24 23:00:55.952059 [info] : dddddddd
+2023-11-24 23:00:55.952103 [info] : Client[14](127.0.0.1:63713) in, userCount:1
+2023-11-24 23:00:55.952140 [info] : Client[14] in!
+2023-11-24 23:00:56.600388 [info] : 1
+2023-11-24 23:00:56.600626 [info] : 1
+2023-11-24 23:00:56.600640 [info] : dddddddd
+2023-11-24 23:00:56.600671 [info] : Client[15](127.0.0.1:64737) in, userCount:2
+2023-11-24 23:00:56.600680 [info] : Client[15] in!
+2023-11-24 23:00:56.601069 [debug]: [GET], [/index.html], [1.1]
+2023-11-24 23:00:56.601082 [debug]: /index.html
+2023-11-24 23:00:56.601095 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//index.html
+2023-11-24 23:00:56.601103 [debug]: filesize:3148, 2  to 3270
+2023-11-24 23:00:56.601113 [info] : 1
+2023-11-24 23:00:56.627478 [info] : 1
+2023-11-24 23:00:56.627680 [info] : 1
+2023-11-24 23:00:56.627883 [debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2023-11-24 23:00:56.627897 [debug]: /css/bootstrap.min.css
+2023-11-24 23:00:56.627909 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/bootstrap.min.css
+2023-11-24 23:00:56.627919 [debug]: filesize:121260, 2  to 121384
+2023-11-24 23:00:56.627927 [info] : 1
+2023-11-24 23:00:56.627974 [info] : 1
+2023-11-24 23:00:56.627978 [info] : dddddddd
+2023-11-24 23:00:56.627990 [info] : Client[16](127.0.0.1:738) in, userCount:3
+2023-11-24 23:00:56.627997 [info] : Client[16] in!
+2023-11-24 23:00:56.628096 [info] : 1
+2023-11-24 23:00:56.628183 [info] : 1
+2023-11-24 23:00:56.628227 [info] : 1
+2023-11-24 23:00:56.628231 [info] : dddddddd
+2023-11-24 23:00:56.628238 [info] : Client[17](127.0.0.1:3298) in, userCount:4
+2023-11-24 23:00:56.628243 [info] : Client[17] in!
+2023-11-24 23:00:56.628254 [debug]: [GET], [/css/animate.css], [1.1]
+2023-11-24 23:00:56.628267 [debug]: /css/animate.css
+2023-11-24 23:00:56.628288 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/animate.css
+2023-11-24 23:00:56.628300 [debug]: filesize:72922, 2  to 73045
+2023-11-24 23:00:56.628310 [info] : 1
+2023-11-24 23:00:56.628328 [info] : 1
+2023-11-24 23:00:56.628591 [debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2023-11-24 23:00:56.628604 [debug]: /css/font-awesome.min.css
+2023-11-24 23:00:56.628623 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/font-awesome.min.css
+2023-11-24 23:00:56.628629 [debug]: [GET], [/css/magnific-popup.css], [1.1]
+2023-11-24 23:00:56.628632 [debug]: filesize:27392, 2  to 27515
+2023-11-24 23:00:56.628645 [debug]: /css/magnific-popup.css
+2023-11-24 23:00:56.628647 [info] : 1
+2023-11-24 23:00:56.628659 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/magnific-popup.css
+2023-11-24 23:00:56.628669 [debug]: filesize:6951, 2  to 7073
+2023-11-24 23:00:56.628677 [info] : 1
+2023-11-24 23:00:56.628760 [info] : 1
+2023-11-24 23:00:56.628898 [debug]: [GET], [/css/style.css], [1.1]
+2023-11-24 23:00:56.628908 [debug]: /css/style.css
+2023-11-24 23:00:56.628916 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/style.css
+2023-11-24 23:00:56.628923 [debug]: filesize:9807, 2  to 9929
+2023-11-24 23:00:56.628929 [info] : 1
+2023-11-24 23:00:56.629005 [info] : 1
+2023-11-24 23:00:56.629039 [info] : 1
+2023-11-24 23:00:56.629155 [debug]: [GET], [/js/jquery.js], [1.1]
+2023-11-24 23:00:56.629168 [debug]: /js/jquery.js
+2023-11-24 23:00:56.629192 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/jquery.js
+2023-11-24 23:00:56.629193 [info] : 1
+2023-11-24 23:00:56.629204 [debug]: filesize:85658, 2  to 85788
+2023-11-24 23:00:56.629211 [info] : 1
+2023-11-24 23:00:56.629396 [debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2023-11-24 23:00:56.629406 [info] : 1
+2023-11-24 23:00:56.629418 [debug]: /js/bootstrap.min.js
+2023-11-24 23:00:56.629435 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/bootstrap.min.js
+2023-11-24 23:00:56.629443 [debug]: filesize:36868, 2  to 36998
+2023-11-24 23:00:56.629450 [info] : 1
+2023-11-24 23:00:56.629543 [debug]: [GET], [/images/profile-image.jpg], [1.1]
+2023-11-24 23:00:56.629554 [debug]: /images/profile-image.jpg
+2023-11-24 23:00:56.629573 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//images/profile-image.jpg
+2023-11-24 23:00:56.629585 [debug]: filesize:47176, 2  to 47300
+2023-11-24 23:00:56.629594 [info] : 1
+2023-11-24 23:00:56.629634 [info] : 1
+2023-11-24 23:00:56.629757 [info] : 1
+2023-11-24 23:00:56.629764 [info] : dddddddd
+2023-11-24 23:00:56.629772 [info] : Client[18](127.0.0.1:3810) in, userCount:5
+2023-11-24 23:00:56.629777 [info] : Client[18] in!
+2023-11-24 23:00:56.629824 [info] : 1
+2023-11-24 23:00:56.629855 [debug]: [GET], [/js/smoothscroll.js], [1.1]
+2023-11-24 23:00:56.629867 [debug]: /js/smoothscroll.js
+2023-11-24 23:00:56.629883 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/smoothscroll.js
+2023-11-24 23:00:56.629891 [debug]: filesize:4474, 2  to 4603
+2023-11-24 23:00:56.629898 [info] : 1
+2023-11-24 23:00:56.629909 [debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2023-11-24 23:00:56.629919 [debug]: /js/jquery.magnific-popup.min.js
+2023-11-24 23:00:56.629940 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/jquery.magnific-popup.min.js
+2023-11-24 23:00:56.629950 [debug]: filesize:20932, 2  to 21062
+2023-11-24 23:00:56.629958 [info] : 1
+2023-11-24 23:00:56.630041 [info] : 1
+2023-11-24 23:00:56.630193 [debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2023-11-24 23:00:56.630202 [debug]: /js/magnific-popup-options.js
+2023-11-24 23:00:56.630217 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/magnific-popup-options.js
+2023-11-24 23:00:56.630224 [debug]: filesize:1069, 2  to 1198
+2023-11-24 23:00:56.630233 [info] : 1
+2023-11-24 23:00:56.630435 [debug]: [GET], [/js/wow.min.js], [1.1]
+2023-11-24 23:00:56.630450 [debug]: /js/wow.min.js
+2023-11-24 23:00:56.630472 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/wow.min.js
+2023-11-24 23:00:56.630484 [debug]: filesize:7082, 2  to 7211
+2023-11-24 23:00:56.630502 [info] : 1
+2023-11-24 23:00:56.630657 [debug]: [GET], [/js/custom.js], [1.1]
+2023-11-24 23:00:56.630666 [debug]: /js/custom.js
+2023-11-24 23:00:56.630678 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/custom.js
+2023-11-24 23:00:56.630685 [debug]: filesize:1047, 2  to 1176
+2023-11-24 23:00:56.630692 [info] : 1
+2023-11-24 23:00:59.465161 [info] : 1
+2023-11-24 23:00:59.467153 [debug]: [GET], [/picture.html], [1.1]
+2023-11-24 23:00:59.467211 [debug]: /picture.html
+2023-11-24 23:00:59.467294 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//picture.html
+2023-11-24 23:00:59.467341 [debug]: filesize:3960, 2  to 4082
+2023-11-24 23:00:59.467429 [info] : 1
+2023-11-24 23:00:59.494107 [info] : 1
+2023-11-24 23:00:59.494337 [info] : 1
+2023-11-24 23:00:59.494496 [debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2023-11-24 23:00:59.494500 [info] : 1
+2023-11-24 23:00:59.494514 [debug]: /css/bootstrap.min.css
+2023-11-24 23:00:59.494540 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/bootstrap.min.css
+2023-11-24 23:00:59.494556 [debug]: filesize:121260, 2  to 121384
+2023-11-24 23:00:59.494597 [info] : 1
+2023-11-24 23:00:59.494733 [debug]: [GET], [/css/animate.css], [1.1]
+2023-11-24 23:00:59.494746 [debug]: /css/animate.css
+2023-11-24 23:00:59.494764 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/animate.css
+2023-11-24 23:00:59.494775 [debug]: filesize:72922, 2  to 73045
+2023-11-24 23:00:59.494812 [info] : 1
+2023-11-24 23:00:59.494827 [info] : 1
+2023-11-24 23:00:59.494904 [debug]: [GET], [/css/magnific-popup.css], [1.1]
+2023-11-24 23:00:59.494914 [debug]: /css/magnific-popup.css
+2023-11-24 23:00:59.494928 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/magnific-popup.css
+2023-11-24 23:00:59.494940 [debug]: filesize:6951, 2  to 7073
+2023-11-24 23:00:59.494949 [info] : 1
+2023-11-24 23:00:59.494959 [info] : 1
+2023-11-24 23:00:59.495540 [debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2023-11-24 23:00:59.495556 [debug]: /css/font-awesome.min.css
+2023-11-24 23:00:59.495572 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/font-awesome.min.css
+2023-11-24 23:00:59.495585 [debug]: filesize:27392, 2  to 27515
+2023-11-24 23:00:59.495595 [info] : 1
+2023-11-24 23:00:59.495669 [debug]: [GET], [/css/style.css], [1.1]
+2023-11-24 23:00:59.495681 [debug]: /css/style.css
+2023-11-24 23:00:59.495704 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/style.css
+2023-11-24 23:00:59.495714 [debug]: filesize:9807, 2  to 9929
+2023-11-24 23:00:59.495723 [info] : 1
+2023-11-24 23:00:59.495829 [info] : 1
+2023-11-24 23:00:59.495848 [info] : 1
+2023-11-24 23:00:59.495863 [info] : 1
+2023-11-24 23:00:59.495943 [info] : 1
+2023-11-24 23:00:59.496135 [info] : 1
+2023-11-24 23:00:59.496309 [debug]: [GET], [/images/instagram-image3.jpg], [1.1]
+2023-11-24 23:00:59.496321 [debug]: /images/instagram-image3.jpg
+2023-11-24 23:00:59.496338 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//images/instagram-image3.jpg
+2023-11-24 23:00:59.496348 [debug]: filesize:59528, 2  to 59652
+2023-11-24 23:00:59.496357 [info] : 1
+2023-11-24 23:00:59.496426 [info] : 1
+2023-11-24 23:00:59.496437 [info] : dddddddd
+2023-11-24 23:00:59.496450 [info] : Client[19](127.0.0.1:14469) in, userCount:6
+2023-11-24 23:00:59.496457 [info] : Client[19] in!
+2023-11-24 23:00:59.496494 [debug]: [GET], [/images/instagram-image4.jpg], [1.1]
+2023-11-24 23:00:59.496504 [debug]: /images/instagram-image4.jpg
+2023-11-24 23:00:59.496520 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//images/instagram-image4.jpg
+2023-11-24 23:00:59.496532 [debug]: filesize:103418, 2  to 103543
+2023-11-24 23:00:59.496538 [info] : 1
+2023-11-24 23:00:59.496550 [info] : 1
+2023-11-24 23:00:59.496643 [debug]: [GET], [/images/instagram-image1.jpg], [1.1]
+2023-11-24 23:00:59.496656 [debug]: /images/instagram-image1.jpg
+2023-11-24 23:00:59.496673 [debug]: [GET], [/images/instagram-image2.jpg], [1.1]
+2023-11-24 23:00:59.496680 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//images/instagram-image1.jpg
+2023-11-24 23:00:59.496688 [debug]: /images/instagram-image2.jpg
+2023-11-24 23:00:59.496695 [debug]: filesize:75836, 2  to 75960
+2023-11-24 23:00:59.496707 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//images/instagram-image2.jpg
+2023-11-24 23:00:59.496718 [debug]: filesize:67313, 2  to 67437
+2023-11-24 23:00:59.496758 [debug]: [GET], [/images/instagram-image5.jpg], [1.1]
+2023-11-24 23:00:59.496767 [debug]: /images/instagram-image5.jpg
+2023-11-24 23:00:59.496781 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//images/instagram-image5.jpg
+2023-11-24 23:00:59.496789 [debug]: filesize:49545, 2  to 49669
+2023-11-24 23:00:59.496874 [info] : 4
+2023-11-24 23:00:59.496898 [info] : 1
+2023-11-24 23:00:59.497218 [debug]: [GET], [/js/jquery.js], [1.1]
+2023-11-24 23:00:59.497231 [debug]: /js/jquery.js
+2023-11-24 23:00:59.497254 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/jquery.js
+2023-11-24 23:00:59.497255 [debug]: [GET], [/js/smoothscroll.js], [1.1]
+2023-11-24 23:00:59.497268 [debug]: filesize:85658, 2  to 85788
+2023-11-24 23:00:59.497268 [debug]: /js/smoothscroll.js
+2023-11-24 23:00:59.497272 [debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2023-11-24 23:00:59.497278 [info] : 1
+2023-11-24 23:00:59.497295 [debug]: /js/bootstrap.min.js
+2023-11-24 23:00:59.497297 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/smoothscroll.js
+2023-11-24 23:00:59.497308 [debug]: filesize:4474, 2  to 4603
+2023-11-24 23:00:59.497308 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/bootstrap.min.js
+2023-11-24 23:00:59.497314 [info] : 1
+2023-11-24 23:00:59.497322 [debug]: filesize:36868, 2  to 36998
+2023-11-24 23:00:59.497329 [info] : 1
+2023-11-24 23:00:59.498112 [info] : 1
+2023-11-24 23:00:59.498320 [info] : 1
+2023-11-24 23:00:59.498479 [debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2023-11-24 23:00:59.498494 [debug]: /js/jquery.magnific-popup.min.js
+2023-11-24 23:00:59.498510 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/jquery.magnific-popup.min.js
+2023-11-24 23:00:59.498518 [debug]: filesize:20932, 2  to 21062
+2023-11-24 23:00:59.498524 [info] : 1
+2023-11-24 23:00:59.498536 [info] : 1
+2023-11-24 23:00:59.498691 [debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2023-11-24 23:00:59.498701 [debug]: /js/magnific-popup-options.js
+2023-11-24 23:00:59.498717 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/magnific-popup-options.js
+2023-11-24 23:00:59.498724 [debug]: filesize:1069, 2  to 1198
+2023-11-24 23:00:59.498732 [info] : 1
+2023-11-24 23:00:59.498896 [info] : 1
+2023-11-24 23:00:59.498897 [debug]: [GET], [/images/profile-image.jpg], [1.1]
+2023-11-24 23:00:59.498916 [debug]: /images/profile-image.jpg
+2023-11-24 23:00:59.498933 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//images/profile-image.jpg
+2023-11-24 23:00:59.498941 [debug]: filesize:47176, 2  to 47300
+2023-11-24 23:00:59.498949 [info] : 1
+2023-11-24 23:00:59.499253 [debug]: [GET], [/js/wow.min.js], [1.1]
+2023-11-24 23:00:59.499261 [debug]: /js/wow.min.js
+2023-11-24 23:00:59.499275 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/wow.min.js
+2023-11-24 23:00:59.499282 [debug]: filesize:7082, 2  to 7211
+2023-11-24 23:00:59.499289 [info] : 1
+2023-11-24 23:00:59.500294 [info] : 1
+2023-11-24 23:00:59.500663 [debug]: [GET], [/js/custom.js], [1.1]
+2023-11-24 23:00:59.500674 [debug]: /js/custom.js
+2023-11-24 23:00:59.500688 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/custom.js
+2023-11-24 23:00:59.500696 [debug]: filesize:1047, 2  to 1176
+2023-11-24 23:00:59.500704 [info] : 1
+2023-11-24 23:01:01.392335 [info] : 1
+2023-11-24 23:01:01.392764 [debug]: [GET], [/video.html], [1.1]
+2023-11-24 23:01:01.392774 [debug]: /video.html
+2023-11-24 23:01:01.392792 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//video.html
+2023-11-24 23:01:01.392801 [debug]: filesize:3347, 2  to 3469
+2023-11-24 23:01:01.392811 [info] : 1
+2023-11-24 23:01:01.406530 [info] : 1
+2023-11-24 23:01:01.406708 [info] : 1
+2023-11-24 23:01:01.406918 [debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2023-11-24 23:01:01.406930 [debug]: /css/bootstrap.min.css
+2023-11-24 23:01:01.406941 [info] : 1
+2023-11-24 23:01:01.406950 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/bootstrap.min.css
+2023-11-24 23:01:01.406970 [debug]: filesize:121260, 2  to 121384
+2023-11-24 23:01:01.406979 [info] : 1
+2023-11-24 23:01:01.407202 [info] : 1
+2023-11-24 23:01:01.407301 [debug]: [GET], [/css/magnific-popup.css], [1.1]
+2023-11-24 23:01:01.407312 [debug]: /css/magnific-popup.css
+2023-11-24 23:01:01.407331 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/magnific-popup.css
+2023-11-24 23:01:01.407340 [debug]: filesize:6951, 2  to 7073
+2023-11-24 23:01:01.407377 [info] : 1
+2023-11-24 23:01:01.407438 [debug]: [GET], [/css/animate.css], [1.1]
+2023-11-24 23:01:01.407454 [debug]: /css/animate.css
+2023-11-24 23:01:01.407454 [info] : 1
+2023-11-24 23:01:01.407477 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/animate.css
+2023-11-24 23:01:01.407493 [debug]: filesize:72922, 2  to 73045
+2023-11-24 23:01:01.407504 [info] : 1
+2023-11-24 23:01:01.407593 [debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2023-11-24 23:01:01.407604 [debug]: /css/font-awesome.min.css
+2023-11-24 23:01:01.407622 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/font-awesome.min.css
+2023-11-24 23:01:01.407631 [debug]: filesize:27392, 2  to 27515
+2023-11-24 23:01:01.407673 [info] : 2
+2023-11-24 23:01:01.407818 [debug]: [GET], [/css/style.css], [1.1]
+2023-11-24 23:01:01.407829 [debug]: /css/style.css
+2023-11-24 23:01:01.407848 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/style.css
+2023-11-24 23:01:01.407856 [debug]: filesize:9807, 2  to 9929
+2023-11-24 23:01:01.407883 [info] : 2
+2023-11-24 23:01:01.408061 [info] : 1
+2023-11-24 23:01:01.408243 [debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2023-11-24 23:01:01.408252 [info] : 1
+2023-11-24 23:01:01.408256 [debug]: /js/bootstrap.min.js
+2023-11-24 23:01:01.408293 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/bootstrap.min.js
+2023-11-24 23:01:01.408306 [debug]: filesize:36868, 2  to 36998
+2023-11-24 23:01:01.408316 [info] : 1
+2023-11-24 23:01:01.408421 [debug]: [GET], [/js/smoothscroll.js], [1.1]
+2023-11-24 23:01:01.408430 [debug]: /js/smoothscroll.js
+2023-11-24 23:01:01.408436 [debug]: [GET], [/js/jquery.js], [1.1]
+2023-11-24 23:01:01.408450 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/smoothscroll.js
+2023-11-24 23:01:01.408460 [debug]: /js/jquery.js
+2023-11-24 23:01:01.408462 [debug]: filesize:4474, 2  to 4603
+2023-11-24 23:01:01.408479 [info] : 1
+2023-11-24 23:01:01.408485 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/jquery.js
+2023-11-24 23:01:01.408499 [debug]: filesize:85658, 2  to 85788
+2023-11-24 23:01:01.408509 [info] : 1
+2023-11-24 23:01:01.408660 [debug]: [GET], [/images/profile-image.jpg], [1.1]
+2023-11-24 23:01:01.408671 [debug]: /images/profile-image.jpg
+2023-11-24 23:01:01.408686 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//images/profile-image.jpg
+2023-11-24 23:01:01.408695 [debug]: filesize:47176, 2  to 47300
+2023-11-24 23:01:01.408702 [info] : 1
+2023-11-24 23:01:01.424301 [info] : 1
+2023-11-24 23:01:01.424571 [info] : 1
+2023-11-24 23:01:01.424694 [debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2023-11-24 23:01:01.424708 [debug]: /js/jquery.magnific-popup.min.js
+2023-11-24 23:01:01.424727 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/jquery.magnific-popup.min.js
+2023-11-24 23:01:01.424736 [debug]: filesize:20932, 2  to 21062
+2023-11-24 23:01:01.424744 [info] : 1
+2023-11-24 23:01:01.424957 [debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2023-11-24 23:01:01.424969 [debug]: /js/magnific-popup-options.js
+2023-11-24 23:01:01.424989 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/magnific-popup-options.js
+2023-11-24 23:01:01.424998 [debug]: filesize:1069, 2  to 1198
+2023-11-24 23:01:01.425005 [info] : 1
+2023-11-24 23:01:01.425318 [info] : 1
+2023-11-24 23:01:01.425939 [info] : 1
+2023-11-24 23:01:01.426127 [debug]: [GET], [/js/wow.min.js], [1.1]
+2023-11-24 23:01:01.426142 [debug]: /js/wow.min.js
+2023-11-24 23:01:01.426170 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/wow.min.js
+2023-11-24 23:01:01.426183 [debug]: filesize:7082, 2  to 7211
+2023-11-24 23:01:01.426195 [info] : 1
+2023-11-24 23:01:01.426415 [debug]: [GET], [/js/custom.js], [1.1]
+2023-11-24 23:01:01.426429 [debug]: /js/custom.js
+2023-11-24 23:01:01.426455 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/custom.js
+2023-11-24 23:01:01.426466 [debug]: filesize:1047, 2  to 1176
+2023-11-24 23:01:01.426477 [info] : 1
+2023-11-24 23:01:01.431562 [info] : 1
+2023-11-24 23:01:01.431973 [debug]: [GET], [/video/xxx.mp4], [1.1]
+2023-11-24 23:01:01.431987 [debug]: /video/xxx.mp4
+2023-11-24 23:01:01.432007 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//video/xxx.mp4
+2023-11-24 23:01:01.432019 [debug]: filesize:39667571, 2  to 39667698
+2023-11-24 23:01:01.432028 [info] : 1
+2023-11-24 23:01:01.433135 [info] : 1
+2023-11-24 23:01:01.450549 [info] : 1
+2023-11-24 23:01:01.455854 [info] : 1
+2023-11-24 23:01:01.462117 [info] : 1
+2023-11-24 23:01:01.468191 [info] : 1
+2023-11-24 23:01:01.472460 [info] : 1
+2023-11-24 23:01:01.475214 [info] : 1
+2023-11-24 23:01:59.550612 [info] : 0
+2023-11-24 23:01:59.550718 [info] : Client[14] quit!
+2023-11-24 23:01:59.550850 [info] : Client[14](127.0.0.1:63713) quit, userCount:5
+2023-11-24 23:01:59.550885 [info] : Client[19] quit!
+2023-11-24 23:01:59.550946 [info] : Client[19](127.0.0.1:14469) quit, userCount:4
+2023-11-24 23:02:01.409925 [info] : 0
+2023-11-24 23:02:01.410019 [info] : Client[18] quit!
+2023-11-24 23:02:01.410144 [info] : Client[18](127.0.0.1:3810) quit, userCount:3
+2023-11-24 23:02:01.424268 [info] : 0
+2023-11-24 23:02:01.424355 [info] : Client[17] quit!
+2023-11-24 23:02:01.424466 [info] : Client[17](127.0.0.1:3298) quit, userCount:2
+2023-11-24 23:02:01.425628 [info] : 0
+2023-11-24 23:02:01.425688 [info] : Client[16] quit!
+2023-11-24 23:02:01.425772 [info] : Client[16](127.0.0.1:738) quit, userCount:1
+2023-11-24 23:02:01.474871 [info] : 0
+2023-11-24 23:02:01.474961 [info] : Client[15] quit!
+2023-11-24 23:02:01.476895 [info] : Client[15](127.0.0.1:64737) quit, userCount:0
+2023-11-24 23:03:08.21272 [info] : 1
+2023-11-24 23:03:08.21364 [info] : dddddddd
+2023-11-24 23:03:08.21403 [info] : Client[14](127.0.0.1:44743) in, userCount:1
+2023-11-24 23:03:08.21433 [info] : Client[14] in!
+2023-11-24 23:03:09.335459 [info] : 1
+2023-11-24 23:03:09.337560 [debug]: [GET], [/login.html], [1.1]
+2023-11-24 23:03:09.337617 [debug]: /login.html
+2023-11-24 23:03:09.337669 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//login.html
+2023-11-24 23:03:09.337709 [debug]: filesize:3385, 2  to 3507
+2023-11-24 23:03:09.337781 [info] : 1
+2023-11-24 23:03:09.366311 [info] : 1
+2023-11-24 23:03:09.366713 [info] : 1
+2023-11-24 23:03:09.366726 [info] : dddddddd
+2023-11-24 23:03:09.366735 [info] : Client[15](127.0.0.1:47303) in, userCount:2
+2023-11-24 23:03:09.366742 [info] : Client[15] in!
+2023-11-24 23:03:09.366801 [info] : 1
+2023-11-24 23:03:09.366867 [debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2023-11-24 23:03:09.366883 [debug]: /css/bootstrap.min.css
+2023-11-24 23:03:09.366894 [info] : 1
+2023-11-24 23:03:09.366908 [info] : dddddddd
+2023-11-24 23:03:09.366913 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/bootstrap.min.css
+2023-11-24 23:03:09.366918 [info] : Client[17](127.0.0.1:51399) in, userCount:3
+2023-11-24 23:03:09.366927 [info] : Client[17] in!
+2023-11-24 23:03:09.366930 [debug]: filesize:121260, 2  to 121384
+2023-11-24 23:03:09.366941 [info] : 2
+2023-11-24 23:03:09.367114 [info] : 1
+2023-11-24 23:03:09.367127 [info] : dddddddd
+2023-11-24 23:03:09.367137 [info] : Client[16](127.0.0.1:52423) in, userCount:4
+2023-11-24 23:03:09.367145 [info] : Client[16] in!
+2023-11-24 23:03:09.367154 [info] : 1
+2023-11-24 23:03:09.367221 [debug]: [GET], [/css/animate.css], [1.1]
+2023-11-24 23:03:09.367235 [debug]: /css/animate.css
+2023-11-24 23:03:09.367250 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/animate.css
+2023-11-24 23:03:09.367264 [debug]: filesize:72922, 2  to 73045
+2023-11-24 23:03:09.367302 [info] : 2
+2023-11-24 23:03:09.367329 [debug]: [GET], [/css/magnific-popup.css], [1.1]
+2023-11-24 23:03:09.367343 [debug]: /css/magnific-popup.css
+2023-11-24 23:03:09.367359 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/magnific-popup.css
+2023-11-24 23:03:09.367372 [debug]: filesize:6951, 2  to 7073
+2023-11-24 23:03:09.367381 [info] : 1
+2023-11-24 23:03:09.367559 [info] : 1
+2023-11-24 23:03:09.367614 [info] : 1
+2023-11-24 23:03:09.367620 [info] : dddddddd
+2023-11-24 23:03:09.367627 [info] : Client[18](127.0.0.1:55495) in, userCount:5
+2023-11-24 23:03:09.367633 [info] : Client[18] in!
+2023-11-24 23:03:09.367709 [debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2023-11-24 23:03:09.367722 [debug]: /css/font-awesome.min.css
+2023-11-24 23:03:09.367736 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/font-awesome.min.css
+2023-11-24 23:03:09.367747 [debug]: filesize:27392, 2  to 27515
+2023-11-24 23:03:09.367757 [info] : 1
+2023-11-24 23:03:09.367791 [info] : 1
+2023-11-24 23:03:09.367932 [debug]: [GET], [/css/style.css], [1.1]
+2023-11-24 23:03:09.367939 [debug]: [GET], [/js/jquery.js], [1.1]
+2023-11-24 23:03:09.367949 [debug]: /css/style.css
+2023-11-24 23:03:09.367956 [debug]: /js/jquery.js
+2023-11-24 23:03:09.367978 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/style.css
+2023-11-24 23:03:09.367984 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/jquery.js
+2023-11-24 23:03:09.367989 [debug]: filesize:9807, 2  to 9929
+2023-11-24 23:03:09.367994 [debug]: filesize:85658, 2  to 85788
+2023-11-24 23:03:09.367998 [info] : 1
+2023-11-24 23:03:09.368009 [info] : 1
+2023-11-24 23:03:09.368019 [info] : 1
+2023-11-24 23:03:09.368176 [debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2023-11-24 23:03:09.368186 [debug]: /js/bootstrap.min.js
+2023-11-24 23:03:09.368202 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/bootstrap.min.js
+2023-11-24 23:03:09.368213 [debug]: filesize:36868, 2  to 36998
+2023-11-24 23:03:09.368224 [info] : 1
+2023-11-24 23:03:09.368234 [info] : 1
+2023-11-24 23:03:09.368377 [debug]: [GET], [/js/smoothscroll.js], [1.1]
+2023-11-24 23:03:09.368387 [debug]: /js/smoothscroll.js
+2023-11-24 23:03:09.368402 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/smoothscroll.js
+2023-11-24 23:03:09.368410 [debug]: filesize:4474, 2  to 4603
+2023-11-24 23:03:09.368418 [info] : 1
+2023-11-24 23:03:09.368446 [info] : 1
+2023-11-24 23:03:09.368617 [debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2023-11-24 23:03:09.368629 [debug]: /js/jquery.magnific-popup.min.js
+2023-11-24 23:03:09.368647 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/jquery.magnific-popup.min.js
+2023-11-24 23:03:09.368656 [debug]: filesize:20932, 2  to 21062
+2023-11-24 23:03:09.368665 [info] : 1
+2023-11-24 23:03:09.368679 [info] : 1
+2023-11-24 23:03:09.368803 [debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2023-11-24 23:03:09.368811 [debug]: /js/magnific-popup-options.js
+2023-11-24 23:03:09.368824 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/magnific-popup-options.js
+2023-11-24 23:03:09.368832 [debug]: filesize:1069, 2  to 1198
+2023-11-24 23:03:09.368839 [info] : 1
+2023-11-24 23:03:09.369026 [debug]: [GET], [/js/wow.min.js], [1.1]
+2023-11-24 23:03:09.369035 [debug]: /js/wow.min.js
+2023-11-24 23:03:09.369049 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/wow.min.js
+2023-11-24 23:03:09.369057 [debug]: filesize:7082, 2  to 7211
+2023-11-24 23:03:09.369063 [info] : 1
+2023-11-24 23:03:09.371063 [info] : 1
+2023-11-24 23:03:09.371453 [debug]: [GET], [/js/custom.js], [1.1]
+2023-11-24 23:03:09.371465 [debug]: /js/custom.js
+2023-11-24 23:03:09.371483 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/custom.js
+2023-11-24 23:03:09.371495 [debug]: filesize:1047, 2  to 1176
+2023-11-24 23:03:09.371539 [info] : 1
+2023-11-24 23:03:13.151917 [info] : 1
+2023-11-24 23:03:13.152767 [debug]: username = a
+2023-11-24 23:03:13.152787 [debug]: Tag:1
+2023-11-24 23:03:13.152794 [info] : Verify name:a pwd:a
+2023-11-24 23:03:13.152799 [debug]: SELECT username, password FROM user WHERE username='a' LIMIT 1
+2023-11-24 23:03:13.153050 [debug]: MYSQL ROW: a a
+2023-11-24 23:03:13.153062 [debug]: UserVerify success!!
+2023-11-24 23:03:13.153067 [debug]: Body:username=a&password=a, len:21
+2023-11-24 23:03:13.153071 [debug]: [POST], [/welcome.html], [1.1]
+2023-11-24 23:03:13.153076 [debug]: /welcome.html
+2023-11-24 23:03:13.153099 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//welcome.html
+2023-11-24 23:03:13.153111 [debug]: filesize:3161, 2  to 3283
+2023-11-24 23:03:13.153126 [info] : 1
+2023-11-24 23:03:13.153320 [error]: RequestLine Error
+2023-11-24 23:03:13.153359 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//404.html
+2023-11-24 23:03:13.153374 [debug]: filesize:3149, 2  to 3241
+2023-11-24 23:03:13.153385 [info] : 1
+2023-11-24 23:03:13.153460 [info] : Client[14] quit!
+2023-11-24 23:03:13.153509 [info] : Client[14](127.0.0.1:44743) quit, userCount:4
+2023-11-24 23:03:13.170607 [info] : 1
+2023-11-24 23:03:13.170901 [info] : 1
+2023-11-24 23:03:13.171064 [debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2023-11-24 23:03:13.171077 [debug]: /css/bootstrap.min.css
+2023-11-24 23:03:13.171097 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/bootstrap.min.css
+2023-11-24 23:03:13.171104 [info] : 1
+2023-11-24 23:03:13.171114 [debug]: filesize:121260, 2  to 121384
+2023-11-24 23:03:13.171123 [info] : 1
+2023-11-24 23:03:13.171281 [debug]: [GET], [/css/animate.css], [1.1]
+2023-11-24 23:03:13.171294 [debug]: /css/animate.css
+2023-11-24 23:03:13.171310 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/animate.css
+2023-11-24 23:03:13.171326 [debug]: filesize:72922, 2  to 73045
+2023-11-24 23:03:13.171336 [info] : 1
+2023-11-24 23:03:13.171368 [info] : 1
+2023-11-24 23:03:13.171488 [debug]: [GET], [/css/magnific-popup.css], [1.1]
+2023-11-24 23:03:13.171497 [debug]: /css/magnific-popup.css
+2023-11-24 23:03:13.171510 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/magnific-popup.css
+2023-11-24 23:03:13.171517 [debug]: filesize:6951, 2  to 7073
+2023-11-24 23:03:13.171524 [info] : 1
+2023-11-24 23:03:13.171641 [info] : 1
+2023-11-24 23:03:13.171735 [debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2023-11-24 23:03:13.171746 [debug]: /css/font-awesome.min.css
+2023-11-24 23:03:13.171765 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/font-awesome.min.css
+2023-11-24 23:03:13.171773 [debug]: filesize:27392, 2  to 27515
+2023-11-24 23:03:13.171779 [info] : 1
+2023-11-24 23:03:13.171862 [info] : 1
+2023-11-24 23:03:13.172073 [info] : 1
+2023-11-24 23:03:13.172114 [debug]: [GET], [/css/style.css], [1.1]
+2023-11-24 23:03:13.172125 [debug]: /css/style.css
+2023-11-24 23:03:13.172148 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/style.css
+2023-11-24 23:03:13.172159 [debug]: filesize:9807, 2  to 9929
+2023-11-24 23:03:13.172168 [info] : 1
+2023-11-24 23:03:13.172230 [debug]: [GET], [/js/jquery.js], [1.1]
+2023-11-24 23:03:13.172242 [debug]: /js/jquery.js
+2023-11-24 23:03:13.172257 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/jquery.js
+2023-11-24 23:03:13.172266 [debug]: filesize:85658, 2  to 85788
+2023-11-24 23:03:13.172273 [info] : 1
+2023-11-24 23:03:13.172294 [info] : 1
+2023-11-24 23:03:13.172484 [debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2023-11-24 23:03:13.172496 [debug]: /js/bootstrap.min.js
+2023-11-24 23:03:13.172512 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/bootstrap.min.js
+2023-11-24 23:03:13.172521 [debug]: filesize:36868, 2  to 36998
+2023-11-24 23:03:13.172528 [info] : 1
+2023-11-24 23:03:13.172544 [info] : 1
+2023-11-24 23:03:13.172680 [debug]: [GET], [/js/smoothscroll.js], [1.1]
+2023-11-24 23:03:13.172688 [debug]: /js/smoothscroll.js
+2023-11-24 23:03:13.172699 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/smoothscroll.js
+2023-11-24 23:03:13.172706 [debug]: filesize:4474, 2  to 4603
+2023-11-24 23:03:13.172713 [info] : 1
+2023-11-24 23:03:13.172797 [info] : 1
+2023-11-24 23:03:13.172918 [debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2023-11-24 23:03:13.172929 [debug]: /js/jquery.magnific-popup.min.js
+2023-11-24 23:03:13.172947 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/jquery.magnific-popup.min.js
+2023-11-24 23:03:13.172955 [debug]: filesize:20932, 2  to 21062
+2023-11-24 23:03:13.172962 [info] : 1
+2023-11-24 23:03:13.173007 [info] : 1
+2023-11-24 23:03:13.173187 [debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2023-11-24 23:03:13.173199 [debug]: /js/magnific-popup-options.js
+2023-11-24 23:03:13.173218 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/magnific-popup-options.js
+2023-11-24 23:03:13.173226 [debug]: filesize:1069, 2  to 1198
+2023-11-24 23:03:13.173233 [info] : 1
+2023-11-24 23:03:13.173244 [info] : 1
+2023-11-24 23:03:13.173376 [debug]: [GET], [/js/wow.min.js], [1.1]
+2023-11-24 23:03:13.173385 [debug]: /js/wow.min.js
+2023-11-24 23:03:13.173399 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/wow.min.js
+2023-11-24 23:03:13.173406 [debug]: filesize:7082, 2  to 7211
+2023-11-24 23:03:13.173413 [info] : 1
+2023-11-24 23:03:13.173501 [info] : 1
+2023-11-24 23:03:13.173712 [debug]: [GET], [/js/custom.js], [1.1]
+2023-11-24 23:03:13.173722 [debug]: /js/custom.js
+2023-11-24 23:03:13.173737 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/custom.js
+2023-11-24 23:03:13.173746 [debug]: filesize:1047, 2  to 1176
+2023-11-24 23:03:13.173754 [info] : 1
+2023-11-24 23:03:13.174003 [debug]: [GET], [/images/profile-image.jpg], [1.1]
+2023-11-24 23:03:13.174012 [debug]: /images/profile-image.jpg
+2023-11-24 23:03:13.174024 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//images/profile-image.jpg
+2023-11-24 23:03:13.174035 [debug]: filesize:47176, 2  to 47300
+2023-11-24 23:03:13.174042 [info] : 1
+2023-11-24 23:03:14.893622 [info] : 1
+2023-11-24 23:03:14.894070 [debug]: [GET], [/register.html], [1.1]
+2023-11-24 23:03:14.894085 [debug]: /register.html
+2023-11-24 23:03:14.894105 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//register.html
+2023-11-24 23:03:14.894114 [debug]: filesize:3380, 2  to 3502
+2023-11-24 23:03:14.894124 [info] : 1
+2023-11-24 23:03:14.913873 [info] : 1
+2023-11-24 23:03:14.914070 [info] : 1
+2023-11-24 23:03:14.914291 [info] : 1
+2023-11-24 23:03:14.914336 [debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2023-11-24 23:03:14.914350 [debug]: /css/bootstrap.min.css
+2023-11-24 23:03:14.914370 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/bootstrap.min.css
+2023-11-24 23:03:14.914382 [debug]: filesize:121260, 2  to 121384
+2023-11-24 23:03:14.914390 [info] : 1
+2023-11-24 23:03:14.914450 [debug]: [GET], [/css/animate.css], [1.1]
+2023-11-24 23:03:14.914463 [debug]: /css/animate.css
+2023-11-24 23:03:14.914482 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/animate.css
+2023-11-24 23:03:14.914499 [debug]: filesize:72922, 2  to 73045
+2023-11-24 23:03:14.914508 [info] : 1
+2023-11-24 23:03:14.914595 [info] : 1
+2023-11-24 23:03:14.914610 [info] : 1
+2023-11-24 23:03:14.914615 [info] : Client[18] quit!
+2023-11-24 23:03:14.914640 [info] : Client[18](127.0.0.1:55495) quit, userCount:3
+2023-11-24 23:03:14.914657 [debug]: [GET], [/css/magnific-popup.css], [1.1]
+2023-11-24 23:03:14.914668 [debug]: /css/magnific-popup.css
+2023-11-24 23:03:14.914683 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/magnific-popup.css
+2023-11-24 23:03:14.914691 [debug]: filesize:6951, 2  to 7073
+2023-11-24 23:03:14.914698 [info] : 1
+2023-11-24 23:03:14.914756 [info] : 1
+2023-11-24 23:03:14.914850 [info] : 1
+2023-11-24 23:03:14.914856 [info] : dddddddd
+2023-11-24 23:03:14.914864 [info] : Client[14](127.0.0.1:59079) in, userCount:4
+2023-11-24 23:03:14.914870 [info] : Client[14] in!
+2023-11-24 23:03:14.914875 [info] : Client[18](127.0.0.1:62151) in, userCount:5
+2023-11-24 23:03:14.914879 [info] : Client[18] in!
+2023-11-24 23:03:14.914970 [info] : 1
+2023-11-24 23:03:14.914995 [debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2023-11-24 23:03:14.915008 [debug]: /css/font-awesome.min.css
+2023-11-24 23:03:14.915030 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/font-awesome.min.css
+2023-11-24 23:03:14.915039 [debug]: filesize:27392, 2  to 27515
+2023-11-24 23:03:14.915046 [info] : 1
+2023-11-24 23:03:14.915231 [info] : 1
+2023-11-24 23:03:14.915369 [debug]: [GET], [/js/jquery.js], [1.1]
+2023-11-24 23:03:14.915379 [debug]: /js/jquery.js
+2023-11-24 23:03:14.915394 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/jquery.js
+2023-11-24 23:03:14.915403 [debug]: filesize:85658, 2  to 85788
+2023-11-24 23:03:14.915410 [info] : 1
+2023-11-24 23:03:14.915478 [debug]: [GET], [/css/style.css], [1.1]
+2023-11-24 23:03:14.915495 [debug]: /css/style.css
+2023-11-24 23:03:14.915520 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/style.css
+2023-11-24 23:03:14.915532 [debug]: filesize:9807, 2  to 9929
+2023-11-24 23:03:14.915534 [info] : 1
+2023-11-24 23:03:14.915549 [info] : 1
+2023-11-24 23:03:14.915618 [debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2023-11-24 23:03:14.915626 [debug]: /js/bootstrap.min.js
+2023-11-24 23:03:14.915639 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/bootstrap.min.js
+2023-11-24 23:03:14.915648 [debug]: filesize:36868, 2  to 36998
+2023-11-24 23:03:14.915704 [info] : 1
+2023-11-24 23:03:14.915715 [info] : 1
+2023-11-24 23:03:14.915905 [debug]: [GET], [/js/smoothscroll.js], [1.1]
+2023-11-24 23:03:14.915913 [debug]: /js/smoothscroll.js
+2023-11-24 23:03:14.915921 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/smoothscroll.js
+2023-11-24 23:03:14.915923 [info] : 1
+2023-11-24 23:03:14.915928 [debug]: filesize:4474, 2  to 4603
+2023-11-24 23:03:14.915940 [info] : 1
+2023-11-24 23:03:14.916125 [info] : 1
+2023-11-24 23:03:14.916282 [debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2023-11-24 23:03:14.916292 [debug]: /js/magnific-popup-options.js
+2023-11-24 23:03:14.916297 [debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2023-11-24 23:03:14.916310 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/magnific-popup-options.js
+2023-11-24 23:03:14.916312 [info] : 1
+2023-11-24 23:03:14.916311 [debug]: /js/jquery.magnific-popup.min.js
+2023-11-24 23:03:14.916325 [debug]: filesize:1069, 2  to 1198
+2023-11-24 23:03:14.916334 [info] : 1
+2023-11-24 23:03:14.916344 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/jquery.magnific-popup.min.js
+2023-11-24 23:03:14.916357 [debug]: filesize:20932, 2  to 21062
+2023-11-24 23:03:14.916366 [info] : 1
+2023-11-24 23:03:14.916520 [debug]: [GET], [/js/wow.min.js], [1.1]
+2023-11-24 23:03:14.916531 [debug]: /js/wow.min.js
+2023-11-24 23:03:14.916547 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/wow.min.js
+2023-11-24 23:03:14.916555 [debug]: filesize:7082, 2  to 7211
+2023-11-24 23:03:14.916562 [info] : 1
+2023-11-24 23:03:14.916666 [debug]: [GET], [/js/custom.js], [1.1]
+2023-11-24 23:03:14.916674 [debug]: /js/custom.js
+2023-11-24 23:03:14.916687 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/custom.js
+2023-11-24 23:03:14.916694 [debug]: filesize:1047, 2  to 1176
+2023-11-24 23:03:14.916701 [info] : 1
+2023-11-24 23:03:20.113967 [info] : 1
+2023-11-24 23:03:20.114057 [info] : Client[18] quit!
+2023-11-24 23:03:20.114159 [info] : Client[18](127.0.0.1:62151) quit, userCount:4
+2023-11-24 23:03:25.815616 [info] : 1
+2023-11-24 23:03:25.816152 [debug]: username = v
+2023-11-24 23:03:25.816166 [debug]: Tag:0
+2023-11-24 23:03:25.816171 [info] : Verify name:v pwd:v
+2023-11-24 23:03:25.816174 [debug]: SELECT username, password FROM user WHERE username='v' LIMIT 1
+2023-11-24 23:03:25.816400 [debug]: register!
+2023-11-24 23:03:25.816407 [debug]: INSERT INTO user(username, password) VALUES('v', 'v')
+2023-11-24 23:03:25.817811 [debug]: UserVerify success!!
+2023-11-24 23:03:25.817821 [debug]: Body:username=v&password=v, len:21
+2023-11-24 23:03:25.817824 [debug]: [POST], [/welcome.html], [1.1]
+2023-11-24 23:03:25.817827 [debug]: /welcome.html
+2023-11-24 23:03:25.817842 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//welcome.html
+2023-11-24 23:03:25.817850 [debug]: filesize:3161, 2  to 3283
+2023-11-24 23:03:25.817860 [info] : 1
+2023-11-24 23:03:25.817977 [error]: RequestLine Error
+2023-11-24 23:03:25.818003 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//404.html
+2023-11-24 23:03:25.818015 [debug]: filesize:3149, 2  to 3241
+2023-11-24 23:03:25.818027 [info] : 1
+2023-11-24 23:03:25.818084 [info] : Client[15] quit!
+2023-11-24 23:03:25.818117 [info] : Client[15](127.0.0.1:47303) quit, userCount:3
+2023-11-24 23:03:25.831117 [info] : 1
+2023-11-24 23:03:25.831324 [info] : 1
+2023-11-24 23:03:25.831510 [debug]: [GET], [/css/bootstrap.min.css], [1.1]
+2023-11-24 23:03:25.831525 [debug]: /css/bootstrap.min.css
+2023-11-24 23:03:25.831530 [info] : 1
+2023-11-24 23:03:25.831548 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/bootstrap.min.css
+2023-11-24 23:03:25.831561 [debug]: filesize:121260, 2  to 121384
+2023-11-24 23:03:25.831570 [info] : 1
+2023-11-24 23:03:25.831711 [debug]: [GET], [/css/animate.css], [1.1]
+2023-11-24 23:03:25.831724 [debug]: /css/animate.css
+2023-11-24 23:03:25.831744 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/animate.css
+2023-11-24 23:03:25.831757 [debug]: filesize:72922, 2  to 73045
+2023-11-24 23:03:25.831767 [info] : 1
+2023-11-24 23:03:25.832004 [debug]: [GET], [/css/magnific-popup.css], [1.1]
+2023-11-24 23:03:25.832015 [debug]: /css/magnific-popup.css
+2023-11-24 23:03:25.832033 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/magnific-popup.css
+2023-11-24 23:03:25.832044 [debug]: filesize:6951, 2  to 7073
+2023-11-24 23:03:25.832055 [info] : 1
+2023-11-24 23:03:25.833107 [info] : 1
+2023-11-24 23:03:25.833337 [info] : 1
+2023-11-24 23:03:25.833534 [info] : 1
+2023-11-24 23:03:25.833696 [debug]: [GET], [/css/style.css], [1.1]
+2023-11-24 23:03:25.833707 [debug]: /css/style.css
+2023-11-24 23:03:25.833726 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/style.css
+2023-11-24 23:03:25.833735 [debug]: filesize:9807, 2  to 9929
+2023-11-24 23:03:25.833745 [info] : 1
+2023-11-24 23:03:25.833898 [debug]: [GET], [/js/jquery.js], [1.1]
+2023-11-24 23:03:25.833910 [debug]: /js/jquery.js
+2023-11-24 23:03:25.833927 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/jquery.js
+2023-11-24 23:03:25.833932 [debug]: [GET], [/css/font-awesome.min.css], [1.1]
+2023-11-24 23:03:25.833937 [debug]: filesize:85658, 2  to 85788
+2023-11-24 23:03:25.833954 [debug]: /css/font-awesome.min.css
+2023-11-24 23:03:25.833980 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//css/font-awesome.min.css
+2023-11-24 23:03:25.833991 [debug]: filesize:27392, 2  to 27515
+2023-11-24 23:03:25.834060 [info] : 4
+2023-11-24 23:03:25.834258 [info] : dddddddd
+2023-11-24 23:03:25.834273 [info] : Client[15](127.0.0.1:20168) in, userCount:4
+2023-11-24 23:03:25.834284 [info] : Client[15] in!
+2023-11-24 23:03:25.834298 [info] : 1
+2023-11-24 23:03:25.834472 [info] : 1
+2023-11-24 23:03:25.834482 [info] : dddddddd
+2023-11-24 23:03:25.834499 [info] : Client[18](127.0.0.1:24264) in, userCount:5
+2023-11-24 23:03:25.834510 [info] : Client[18] in!
+2023-11-24 23:03:25.834520 [info] : 1
+2023-11-24 23:03:25.834651 [info] : 1
+2023-11-24 23:03:25.834654 [debug]: [GET], [/js/bootstrap.min.js], [1.1]
+2023-11-24 23:03:25.834670 [debug]: /js/bootstrap.min.js
+2023-11-24 23:03:25.834687 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/bootstrap.min.js
+2023-11-24 23:03:25.834695 [debug]: filesize:36868, 2  to 36998
+2023-11-24 23:03:25.834704 [info] : 1
+2023-11-24 23:03:25.834830 [debug]: [GET], [/js/smoothscroll.js], [1.1]
+2023-11-24 23:03:25.834842 [debug]: /js/smoothscroll.js
+2023-11-24 23:03:25.834852 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/smoothscroll.js
+2023-11-24 23:03:25.834860 [debug]: filesize:4474, 2  to 4603
+2023-11-24 23:03:25.834869 [info] : 1
+2023-11-24 23:03:25.834883 [info] : 1
+2023-11-24 23:03:25.834889 [debug]: [GET], [/js/jquery.magnific-popup.min.js], [1.1]
+2023-11-24 23:03:25.834898 [debug]: /js/jquery.magnific-popup.min.js
+2023-11-24 23:03:25.834915 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/jquery.magnific-popup.min.js
+2023-11-24 23:03:25.834923 [debug]: filesize:20932, 2  to 21062
+2023-11-24 23:03:25.834932 [info] : 1
+2023-11-24 23:03:25.835056 [info] : 1
+2023-11-24 23:03:25.835244 [debug]: [GET], [/js/wow.min.js], [1.1]
+2023-11-24 23:03:25.835255 [debug]: /js/wow.min.js
+2023-11-24 23:03:25.835265 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/wow.min.js
+2023-11-24 23:03:25.835273 [debug]: filesize:7082, 2  to 7211
+2023-11-24 23:03:25.835281 [info] : 1
+2023-11-24 23:03:25.835297 [info] : 1
+2023-11-24 23:03:25.835454 [debug]: [GET], [/js/magnific-popup-options.js], [1.1]
+2023-11-24 23:03:25.835463 [debug]: /js/magnific-popup-options.js
+2023-11-24 23:03:25.835480 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/magnific-popup-options.js
+2023-11-24 23:03:25.835489 [debug]: filesize:1069, 2  to 1198
+2023-11-24 23:03:25.835499 [info] : 1
+2023-11-24 23:03:25.835529 [debug]: [GET], [/js/custom.js], [1.1]
+2023-11-24 23:03:25.835540 [debug]: /js/custom.js
+2023-11-24 23:03:25.835560 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//js/custom.js
+2023-11-24 23:03:25.835570 [debug]: filesize:1047, 2  to 1176
+2023-11-24 23:03:25.835580 [info] : 1
+2023-11-24 23:03:25.835654 [debug]: [GET], [/images/profile-image.jpg], [1.1]
+2023-11-24 23:03:25.835662 [debug]: /images/profile-image.jpg
+2023-11-24 23:03:25.835675 [debug]: file path /home/lzj/Desktop/LzjWebServer/resources//images/profile-image.jpg
+2023-11-24 23:03:25.835683 [debug]: filesize:47176, 2  to 47300
+2023-11-24 23:03:25.835690 [info] : 1

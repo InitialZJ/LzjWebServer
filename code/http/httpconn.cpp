@@ -46,8 +46,6 @@ int HttpConn::GetPort() const { return addr_.sin_port; }
 ssize_t HttpConn::read(int* saveErrno) {
   ssize_t len = -1;
   do {
-    // TODO: 哪种正确？
-    // len += readBuff_.ReadFd(fd_, saveErrno);
     len = readBuff_.ReadFd(fd_, saveErrno);
     if (len <= 0) {
       break;

@@ -35,6 +35,14 @@ const std::unordered_map<int, std::string> HttpResponse::CODE_PATH = {
     {404, "/404.html"},
 };
 
+HttpResponse::HttpResponse() {
+  code_ = -1;
+  path_ = srcDir_ = "";
+  isKeepAlive_ = false;
+  mmFile_ = nullptr;
+  mmFileStat_ = {0};
+}
+
 HttpResponse::~HttpResponse() { UnmapFile(); }
 
 void HttpResponse::Init(const std::string& srcDir, std::string& path,
@@ -86,7 +94,7 @@ void HttpResponse::ErrorHtml_() {
 
 void HttpResponse::AddStateLine_(Buffer& buff) {
   std::string status;
-  if (CODE_PATH.find(code_) == CODE_PATH.end()) {
+  if (CODE_STATES.find(code_) == CODE_STATES.end()) {
     code_ = 400;
   }
   status = CODE_STATES.at(code_);
@@ -127,39 +135,39 @@ void HttpResponse::AddContent_(Buffer& buff) {
 }
 
 void HttpResponse::UnmapFile() {
-	if (mmFile_) {
-		munmap(mmFile_, mmFileStat_.st_size);
-		mmFile_ = nullptr;
-	}
+  if (mmFile_) {
+    munmap(mmFile_, mmFileStat_.st_size);
+    mmFile_ = nullptr;
+  }
 }
 
 std::string HttpResponse::GetFileType_() {
-	// 判断文件类型
-	std::string::size_type idx = path_.find_last_of('.');
-	if (idx == std::string::npos) {
-		return "text/plain";
-	}
-	std::string suffix = path_.substr(idx);
-	if (SUFFIX_TYPE.find(suffix) != SUFFIX_TYPE.end()) {
-		return SUFFIX_TYPE.at(suffix);
-	}
-	return "text/plain";
+  // 判断文件类型
+  std::string::size_type idx = path_.find_last_of('.');
+  if (idx == std::string::npos) {
+    return "text/plain";
+  }
+  std::string suffix = path_.substr(idx);
+  if (SUFFIX_TYPE.find(suffix) != SUFFIX_TYPE.end()) {
+    return SUFFIX_TYPE.at(suffix);
+  }
+  return "text/plain";
 }
 
 void HttpResponse::ErrorContent(Buffer& buff, std::string message) {
-	std::string body;
-	std::string status;
-	body += "<html><title>Error</title>";
-	body += "<body bgolor=\"ffffff\">";
-	if (CODE_STATES.find(code_) != CODE_STATES.end()) {
-		status = CODE_STATES.at(code_);
-	} else {
-		status = "Bad Request";
-	}
-	body += std::to_string(code_) + " : " + status + "\n";
-	body += "<p>" + message + "</p>";
-	body += "<hr><em>LzjWebServer</em></body></html>";
+  std::string body;
+  std::string status;
+  body += "<html><title>Error</title>";
+  body += "<body bgolor=\"ffffff\">";
+  if (CODE_STATES.find(code_) != CODE_STATES.end()) {
+    status = CODE_STATES.at(code_);
+  } else {
+    status = "Bad Request";
+  }
+  body += std::to_string(code_) + " : " + status + "\n";
+  body += "<p>" + message + "</p>";
+  body += "<hr><em>LzjWebServer</em></body></html>";
 
-	buff.Append("Content-length: " + std::to_string(body.size()) + "\r\n\r\n");
-	buff.Append(body);
+  buff.Append("Content-length: " + std::to_string(body.size()) + "\r\n\r\n");
+  buff.Append(body);
 }

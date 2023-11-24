@@ -132,6 +132,12 @@ void BlockDeque<T>::push_front(const T& item) {
 }
 
 template <typename T>
+bool BlockDeque<T>::empty() {
+  std::unique_lock<std::mutex> locker(mtx_);
+  return deq_.empty();
+}
+
+template <typename T>
 bool BlockDeque<T>::full() {
   std::unique_lock<std::mutex> locker(mtx_);
   return deq_.size() >= capacity_;

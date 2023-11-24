@@ -1,7 +1,7 @@
 #include "httprequest.h"
 
 const std::unordered_set<std::string> HttpRequest::DEFAULT_HTML{
-    "/index", "register", "/login", "welcome", "/video", "/picture",
+    "/index", "/register", "/login", "welcome", "/video", "/picture",
 };
 
 const std::unordered_map<std::string, int> HttpRequest::DEFAULT_HTML_TAG{
@@ -20,6 +20,7 @@ bool HttpRequest::IsKeepAlive() const {
   if (header_.find("Connection") != header_.end()) {
     return header_.at("Connection") == "keep-alive" && version_ == "1.1";
   }
+  return false;
 }
 
 // GET / HTTP/1.1
@@ -213,10 +214,8 @@ bool HttpRequest::UserVerify(const std::string& name, const std::string& pwd,
   SqlConnRAII(&sql, SqlConnPool::Instance());
   assert(sql);
 
-  bool flag = true;
-  // unsigned int j = 0;
+  bool flag = !isLogin;
   char order[256] = {0};
-  // MYSQL_FIELD* fields = nullptr;
   MYSQL_RES* res = nullptr;
 
   // 查询用户及密码
@@ -230,15 +229,15 @@ bool HttpRequest::UserVerify(const std::string& name, const std::string& pwd,
     return false;
   }
   res = mysql_store_result(sql);
-  // j = mysql_num_fields(res);
-  // fields = mysql_fetch_fields(res);
 
   while (MYSQL_ROW row = mysql_fetch_row(res)) {
     LOG_DEBUG("MYSQL ROW: %s %s", row[0], row[1]);
     std::string password(row[1]);
     if (isLogin) {
       // 登录行为
-      if (pwd != password) {
+      if (pwd == password) {
+        flag = true;
+      } else {
         flag = false;
         LOG_ERROR("pwd error!");
       }
@@ -262,6 +261,7 @@ bool HttpRequest::UserVerify(const std::string& name, const std::string& pwd,
       LOG_DEBUG("Insert error!");
       flag = false;
     }
+    flag = true;
   }
   // TODO: 以下这句话需要吗
   // SqlConnPool::Instance()->FreeConn(sql);

@@ -27,6 +27,7 @@ CREATE TABLE user(
 INSERT INTO user(username, password) VALUES('name', 'password');
 ```
 
+编译运行
 ```bash
 make
 ./bin/server

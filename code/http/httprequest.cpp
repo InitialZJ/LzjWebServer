@@ -269,8 +269,6 @@ bool HttpRequest::UserVerify(const std::string& name, const std::string& pwd,
     }
     flag = true;
   }
-  // TODO: 以下这句话需要吗
-  // SqlConnPool::Instance()->FreeConn(sql);
   LOG_DEBUG("UserVerify success!!");
   if (flag) {
     LOG_DEBUG("Verification passed");

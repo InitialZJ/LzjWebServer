@@ -32,3 +32,10 @@ INSERT INTO user(username, password) VALUES('name', 'password');
 make
 ./bin/server
 ```
+
+## 修改
+
+本仓库基于markparticle大佬版本实现，并且修复了两个bug，具体见[issue96](https://github.com/markparticle/WebServer/issues/96)和[issue97](https://github.com/markparticle/WebServer/issues/97)：
+
+1. httprequest.cpp：修复sql连接池重复添加的问题；
+2. httprequest.cpp：修复加密字符解析错误的问题。

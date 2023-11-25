@@ -133,13 +133,17 @@ void HttpRequest::ParseBody_(const std::string& line) {
 }
 
 int HttpRequest::ConverHex(char ch) {
+  unsigned int y;
   if (ch >= 'A' && ch <= 'F') {
-    return ch - 'A' + 10;
+    y = ch - 'A' + 10;
+  } else if (ch >= 'a' && ch <= 'f') {
+    y = ch - 'a' + 10;
+  } else if (ch >= '0' && ch <= '9') {
+    y = ch - '0';
+  } else {
+    assert(0);
   }
-  if (ch >= 'a' && ch <= 'f') {
-    return ch - 'a' + 10;
-  }
-  return ch;
+  return y;
 }
 
 void HttpRequest::ParsePost_() {
@@ -183,9 +187,10 @@ void HttpRequest::ParseFromUrlencoded_() {
         break;
       case '%':
         num = ConverHex(body_[i + 1]) * 16 + ConverHex(body_[i + 2]);
-        body_[i + 2] = num % 10 + '0';
-        body_[i + 1] = num / 10 + '0';
-        i += 2;
+        body_[i] = num;
+        body_.erase(body_.begin() + i + 1);
+        body_.erase(body_.begin() + i + 1);
+        n -= 2;
         break;
       case '&':
         value = body_.substr(j, i - j);
@@ -266,37 +271,34 @@ bool HttpRequest::UserVerify(const std::string& name, const std::string& pwd,
   // TODO: 以下这句话需要吗
   // SqlConnPool::Instance()->FreeConn(sql);
   LOG_DEBUG("UserVerify success!!");
+  if (flag) {
+    LOG_DEBUG("Verification passed");
+  } else {
+    LOG_DEBUG("Verification not passed");    
+  }
   return flag;
 }
 
-std::string HttpRequest::path() const {
-	return path_;
-}
+std::string HttpRequest::path() const { return path_; }
 
-std::string& HttpRequest::path() {
-	return path_;
-}
+std::string& HttpRequest::path() { return path_; }
 
-std::string HttpRequest::method() const {
-	return method_;
-}
+std::string HttpRequest::method() const { return method_; }
 
-std::string HttpRequest::version() const {
-	return version_;
-}
+std::string HttpRequest::version() const { return version_; }
 
 std::string HttpRequest::GetPost(const std::string& key) const {
-	assert(key != "");
-	if (post_.find(key) != post_.end()) {
-		return post_.at(key);
-	}
-	return "";
+  assert(key != "");
+  if (post_.find(key) != post_.end()) {
+    return post_.at(key);
+  }
+  return "";
 }
 
 std::string HttpRequest::GetPost(const char* key) const {
-	assert(key != nullptr);
-	if (post_.find(key) != post_.end()) {
-		return post_.at(key);
-	}
-	return "";
+  assert(key != nullptr);
+  if (post_.find(key) != post_.end()) {
+    return post_.at(key);
+  }
+  return "";
 }

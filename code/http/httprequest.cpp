@@ -274,7 +274,7 @@ bool HttpRequest::UserVerify(const std::string& name, const std::string& pwd,
   if (flag) {
     LOG_DEBUG("Verification passed");
   } else {
-    LOG_DEBUG("Verification not passed");    
+    LOG_DEBUG("Verification not passed");
   }
   return flag;
 }

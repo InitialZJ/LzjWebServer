@@ -84,13 +84,11 @@ void WebServer::Start() {
       timeMS = timer_->GetNextTick();
     }
     int eventCnt = epoller_->Wait(timeMS);
-    LOG_INFO("%d", eventCnt);
     for (int i = 0; i < eventCnt; i++) {
       // 处理事件
       int fd = epoller_->GetEventFd(i);
       uint32_t events = epoller_->GetEvents(i);
       if (fd == listenFd_) {
-        LOG_INFO("dddddddd");
         DealListen_();
       } else if (events & (EPOLLRDHUP | EPOLLHUP | EPOLLERR)) {
         assert(users_.count(fd) > 0);

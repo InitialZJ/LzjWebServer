@@ -84,6 +84,7 @@ bool HttpRequest::parse(Buffer& buff) {
         break;
     }
     if (lineEnd == buff.BeginWrite()) {
+      buff.RetrieveUntil(lineEnd);
       break;
     }
     buff.RetrieveUntil(lineEnd + 2);
